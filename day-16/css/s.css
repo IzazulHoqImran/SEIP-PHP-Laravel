@@ -1,0 +1,15 @@
+.mt{
+    border-radius: 20%;
+}
+.bb{
+    border:1px solid black;
+}
+.bg{
+    border:5px solid green;
+}
+.br{
+    border:7px solid red;
+}
+.phone-marg{
+    margin-left: 3rem;
+}
