@@ -1,0 +1,47 @@
+.info li{
+    display: inline-block;
+
+}
+
+.info {
+    
+    margin-top: 1rem;
+}
+.li-lr{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.text-orange,.text-orange:hover{
+    color: #FF4800;
+}
+.bg-orange{
+background-color: #FF4800;
+}
+.navbar .nav-link:hover{
+    background-color: #FF4800;
+    color: white;
+
+}
+.navbar .nav-item:hover .dropdown-menu{
+    display: block;
+}
+.btn-orange{
+    background-color: #FF4800;
+    color: white;
+    }
+
+.banner-section{
+        background-image: url(/faster/assets/images/header.jpg);
+        min-height: 500px;
+
+    }
+ .banner-section:after   {
+    content: '';
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    top:0;
+    background-color: rgba(0,0,0,.7);
+
+
+ }
