@@ -1,3 +1,6 @@
+<?php echo 'if you want to serve PHP code in XHTML or XML documents,
+use these tags'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,13 +53,13 @@
               <li>
                 <a class="text-white">
                   <i class="fa-brands fa-facebook fa-1x"></i>
-                  </span>
+                </a>
 
               </li>
               <li>
-                <span class="li-lr text-white">
+                <a class="li-lr text-white">
                   <i class="fa-brands fa-twitter"></i>
-                </span>
+                </a>
               </li>
               <li>
                 <span class="li-lr text-white">
@@ -97,7 +100,7 @@
     </div>
   </div> -->
   <nav class="navbar navbar-expand py-0">
-    <div class="container ">
+    <div class="container-fluid ">
       <a href="" class="navbar-brand py-0 fs-1  text-orange fw-bolder">
         <i class="fa-solid fa-truck"></i> FASTER
       </a>
@@ -122,22 +125,124 @@
         <li> <a href="" class="nav-link btn-orange rounded-0 px-3 fw-bolder">Get A Quote</a></li>
 
       </ul>
-
+      <!-- -------Hero Section ----------- -->
     </div>
   </nav>
-  <section class="position-relative banner-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 mx-auto">
-          <h1 class="text-white"> Hello Bnagladesh</h1>
+  <div>
+    <section class="banner-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="d-flex align-items-center flex-column hero-content justify-content-center">
+            <h2 class="text-uppercase"> Safe & Faster </h2>
+            <h1> Logistics Services </h1>
+            <div class="d-flex hero-search mt-5">
+              <input type="text" placeholder="Traking Id">
+              <button>Track & Trace</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </div>
+  <!-- -----------After Hero section ----------- -->
+
+  <div class="container-ah ">
+    <div class="row">
+      <div class="col-5 ">
+        <img src="/faster/assets/images/about.jpg" style="width: 30rem; height: 25rem;" alt="">
+        <div class="row text-ah" style="height: 4rem; width: 30rem;">
+          <span style="margin-top: 5px;">25+ Years Experience</span>
+        </div>
+      </div>
+
+      <div class="col-7">
+
+        <div class="text-rah">
+          <span class="fw-bolder" style="color: #FF4800;">About Us</span>
+          <span>
+            <h2 class="fw-bolder">Trusted & Faster Logistic Service Provider</h2>
+          </span>
+          <span>
+            <p style="color: #949d9d;">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit
+              rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et
+              erat sed diam duo</p>
+          </span>
+          <a href="" class="text-orange fw-bolder">
+            <i class="fa-sharp fa-solid fa-circle-play fa-4x fa-beat-fade "></i>
+          </a>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+  </div>
 
-  <footer>
+  <div class="container-ahn ">
+    <div class="row">
+      <div class="col-7">
+        <div class="container-ahn1">
+          <span class="fw-bolder" style="color: #FF4800;">GET A QUOTE</span>
+          <span>
+            <span class="text-rah">
+              <h2 class="fw-bolder">Request A Free Quote</h2>
+            </span>
+            <p style="color: #949d9d;">Dolores lorem lorem ipsum sit et ipsum. Sadip sea amet diam dolore sed et. Sit
+              rebum labore sit sit ut vero no sit. Et elitr stet dolor sed sit et sed ipsum et kasd ut. Erat duo eos et
+              erat sed diam duo</p>
+          </span>
+          <div class="row">
+            <div class="col-4">
+              <span class="number-size">
+                225
+              </span>
+              <p class="fw-bolder">SKilled Experts</p>
+            </div>
+            <div class="col-4">
+              <span class="number-size">
+                1050
+              </span>
+              <p class="fw-bolder">SKilled Experts</p>
+            </div>
+            <div class="col-4">
+              <span class="number-size">
+                2500
+              </span>
+              <p class="fw-bolder">SKilled Experts</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-5 " style="width :450px; height: 400px; background-color: #FF4800;">
+        <div class="container " style="margin-top: 6rem;">
+          <div class="d-flex hero-input mt-5 mx-4">
+            <input type="text" placeholder="Your Name">
+          </div>
+        </div>
+        <div class="container ">
+          <div class="d-flex hero-input mt-3 mx-4">
+            <input type="text" placeholder="Your Email">
+          </div>
+        </div>
+        <div class="d-flex hero-input mt-3 mx-4">
 
-  </footer>
+          <select name="service" id="service">
+            <option value="">Select A service</option>
+            <option value="">Service 1</option>
+            <option value="">Service 2</option>
+            <option value="">Service 3</option>
+          </select>
+
+
+        </div>
+        <div class="container d-flex hero-input mt-3 mx-4 ">
+          <button class="option-btn ">Track & Trace</button>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+
+    </footer>
 
 </body>
 
